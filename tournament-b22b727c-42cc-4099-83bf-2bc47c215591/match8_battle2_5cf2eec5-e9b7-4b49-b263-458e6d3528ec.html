@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Gemini 2.5 Flash vs Claude 3.7 Sonnet</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;} .battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;} .battle-log .inner {padding:4px 8px 0px 8px;} .battle-log .inner-preempt {padding:0 8px 4px 8px;} .battle-log .inner-after {margin-top:0.5em;} .battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;} .battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;} .battle-log .chat strong {color:#40576A;} .battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;} .chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;} .spoiler {color:#BBBBBB;background:#BBBBBB;padding:0px 3px;} .spoiler:hover, .spoiler:active, .spoiler-shown {color:#000000;background:#E2E2E2;padding:0px 3px;} .spoiler a {color:#BBBBBB;} .spoiler:hover a, .spoiler:active a, .spoiler-shown a {color:#2288CC;} .chat code, .chat .spoiler:hover code, .chat .spoiler:active code, .chat .spoiler-shown code {border:1px solid #C0C0C0;background:#EEEEEE;color:black;padding:0 2px;} .chat .spoiler code {border:1px solid #CCCCCC;background:#CCCCCC;color:#CCCCCC;} .battle-log .rated {padding:3px 4px;} .battle-log .rated strong {color:white;background:#89A;padding:1px 4px;border-radius:4px;} .spacer {margin-top:0.5em;} .message-announce {background:#6688AA;color:white;padding:1px 4px 2px;} .message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;} .broadcast-green {background-color:#559955;color:white;padding:2px 4px;} .broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;} .infobox {border:1px solid #6688AA;padding:2px 4px;} .infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;} .broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;} .message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;} .message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;} .message-effect-weak {font-weight:bold;color:#CC2222;} .message-effect-resist {font-weight:bold;color:#6688AA;} .message-effect-immune {font-weight:bold;color:#666666;} .message-learn-list {margin-top:0;margin-bottom:0;} .message-throttle-notice, .message-error {color:#992222;} .message-overflow, .chat small.message-overflow {font-size:0pt;} .message-overflow::before {font-size:9pt;content:'...';} .subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><div class="replay-controls-2"></div>
+<script type="text/plain" class="battle-log-data">|t:|1765760280
+|gametype|singles
+|player|p1|Gemini 2.5 Flash||
+|player|p2|Claude 3.7 Sonnet||
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Random Battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|
+|t:|1765760280
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L87, M|229/229
+|switch|p2a: Duraludon|Duraludon, L82, F|249/249
+|turn|1
+|
+|t:|1765760286
+|move|p2a: Duraludon|Flash Cannon|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|121/229
+|-unboost|p1a: Hitmonchan|spd|1
+|move|p1a: Hitmonchan|Ice Punch|p2a: Duraludon
+|-damage|p2a: Duraludon|197/249
+|-damage|p1a: Hitmonchan|99/229|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1765760306
+|switch|p1a: Ursaluna|Ursaluna, L79, M|335/335
+|move|p2a: Duraludon|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|221/335
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1765760316
+|switch|p2a: Swampert|Swampert, L83, F|302/302
+|move|p1a: Ursaluna|Headlong Rush|p2a: Swampert
+|-damage|p2a: Swampert|59/302
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-heal|p2a: Swampert|77/302|[from] item: Leftovers
+|-damage|p1a: Ursaluna|201/335 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1765760323
+|move|p2a: Swampert|Yawn||[still]
+|-fail|p2a: Swampert
+|move|p1a: Ursaluna|Facade|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-damage|p1a: Ursaluna|181/335 brn|[from] brn
+|upkeep
+|
+|t:|1765760324
+|switch|p2a: Zapdos|Zapdos, L78|268/268
+|turn|5
+|
+|t:|1765760339
+|switch|p1a: Electrode|Electrode, L92|260/260
+|move|p2a: Zapdos|Hurricane|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|194/260
+|
+|upkeep
+|turn|6
+|
+|t:|1765760350
+|move|p1a: Electrode|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|154/268
+|-damage|p1a: Electrode|168/260|[from] item: Life Orb
+|
+|t:|1765760356
+|switch|p1a: Tinkaton|Tinkaton, L82, F|274/274|[from] Volt Switch
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Zapdos|Discharge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|192/274
+|
+|-heal|p1a: Tinkaton|209/274|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1765760363
+|move|p1a: Tinkaton|Play Rough|p2a: Zapdos
+|-damage|p2a: Zapdos|67/268
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|201/268
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-heal|p1a: Tinkaton|226/274|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1765760385
+|move|p2a: Zapdos|Discharge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|147/274
+|-status|p1a: Tinkaton|par
+|move|p1a: Tinkaton|Play Rough|p2a: Zapdos
+|-damage|p2a: Zapdos|111/268
+|
+|-heal|p1a: Tinkaton|164/274 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1765760402
+|switch|p1a: Ursaluna|Ursaluna, L79, M|181/335 brn
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|245/268
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p1a: Ursaluna|161/335 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1765760412
+|switch|p1a: Tinkaton|Tinkaton, L82, F|164/274 par
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Zapdos|Discharge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|85/274 par
+|
+|-heal|p1a: Tinkaton|102/274 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1765760422
+|switch|p1a: Ursaluna|Ursaluna, L79, M|161/335 brn
+|move|p2a: Zapdos|Discharge|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|141/335 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1765760431
+|switch|p2a: Dialga|Dialga, L73|266/266
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Ursaluna|Facade|p2a: Dialga
+|-resisted|p2a: Dialga
+|-damage|p2a: Dialga|143/266
+|
+|-damage|p1a: Ursaluna|121/335 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1765760443
+|move|p2a: Dialga|Draco Meteor|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Dialga|spa|2
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1765760459
+|switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+|turn|14
+|
+|t:|1765760467
+|switch|p2a: Zapdos|Zapdos, L78|245/268
+|move|p1a: Barraskewda|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|165/268
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1765760476
+|switch|p1a: Tinkaton|Tinkaton, L82, F|102/274 par
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Zapdos|Discharge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|26/274 par
+|
+|-heal|p1a: Tinkaton|43/274 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1765760484
+|switch|p1a: Volcanion|Volcanion, L79|255/255
+|move|p2a: Zapdos|Discharge|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|129/255
+|-status|p1a: Volcanion|par
+|
+|upkeep
+|turn|17
+|
+|t:|1765760496
+|switch|p1a: Tinkaton|Tinkaton, L82, F|43/274 par
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Zapdos|Discharge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1765760500
+|switch|p1a: Electrode|Electrode, L92|168/260
+|turn|18
+|
+|t:|1765760513
+|move|p1a: Electrode|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|55/268
+|-damage|p1a: Electrode|142/260|[from] item: Life Orb
+|
+|t:|1765760531
+|switch|p1a: Hitmonchan|Hitmonchan, L87, M|99/229|[from] Volt Switch
+|move|p2a: Zapdos|Discharge|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|24/229
+|
+|upkeep
+|turn|19
+|
+|t:|1765760539
+|switch|p2a: Dialga|Dialga, L73|143/266
+|-ability|p2a: Dialga|Pressure
+|move|p1a: Hitmonchan|Close Combat|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-crit|p2a: Dialga
+|-damage|p2a: Dialga|0 fnt
+|-unboost|p1a: Hitmonchan|def|1
+|-unboost|p1a: Hitmonchan|spd|1
+|faint|p2a: Dialga
+|-damage|p1a: Hitmonchan|2/229|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1765760540
+|switch|p2a: Zapdos|Zapdos, L78|55/268
+|turn|20
+|
+|t:|1765760547
+|switch|p2a: Chimecho|Chimecho, L93, F|290/290
+|move|p1a: Hitmonchan|Ice Punch|p2a: Chimecho
+|-damage|p2a: Chimecho|203/290
+|-damage|p1a: Hitmonchan|0 fnt|[from] item: Life Orb
+|faint|p1a: Hitmonchan
+|
+|-heal|p2a: Chimecho|221/290|[from] item: Leftovers
+|upkeep
+|
+|t:|1765760553
+|switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+|turn|21
+|
+|t:|1765760562
+|switch|p2a: Duraludon|Duraludon, L82, F|197/249
+|move|p1a: Barraskewda|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|39/249
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|upkeep
+|turn|22
+|
+|t:|1765760567
+|switch|p2a: Chimecho|Chimecho, L93, F|221/290
+|move|p1a: Barraskewda|Close Combat|p2a: Chimecho
+|-resisted|p2a: Chimecho
+|-damage|p2a: Chimecho|157/290
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-heal|p2a: Chimecho|175/290|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1765760587
+|move|p1a: Barraskewda|Close Combat|p2a: Chimecho
+|-resisted|p2a: Chimecho
+|-crit|p2a: Chimecho
+|-damage|p2a: Chimecho|79/290
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|97/290|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1765760611
+|switch|p1a: Volcanion|Volcanion, L79|129/255 par
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|242/290
+|
+|-heal|p2a: Chimecho|260/290|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1765760621
+|move|p2a: Chimecho|Stored Power|p1a: Volcanion
+|-damage|p1a: Volcanion|72/255 par
+|cant|p1a: Volcanion|par
+|
+|-heal|p2a: Chimecho|278/290|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1765760630
+|switch|p1a: Electrode|Electrode, L92|142/260
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|290/290|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1765760637
+|move|p1a: Electrode|Taunt|p2a: Chimecho
+|-start|p2a: Chimecho|move: Taunt
+|move|p2a: Chimecho|Stored Power|p1a: Electrode
+|-damage|p1a: Electrode|9/260
+|
+|upkeep
+|turn|28
+|
+|t:|1765760644
+|move|p1a: Electrode|Volt Switch|p2a: Chimecho
+|-damage|p2a: Chimecho|246/290
+|-damage|p1a: Electrode|0 fnt|[from] item: Life Orb
+|faint|p1a: Electrode
+|move|p2a: Chimecho|Stored Power|p1: Electrode|[notarget]
+|-fail|p2a: Chimecho
+|
+|-heal|p2a: Chimecho|264/290|[from] item: Leftovers
+|upkeep
+|
+|t:|1765760653
+|switch|p1a: Barraskewda|Barraskewda, L81, M|231/231
+|turn|29
+|
+|t:|1765760662
+|move|p1a: Barraskewda|Close Combat|p2a: Chimecho
+|-resisted|p2a: Chimecho
+|-damage|p2a: Chimecho|229/290
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Chimecho|Dazzling Gleam|p1a: Barraskewda
+|-damage|p1a: Barraskewda|73/231
+|
+|-heal|p2a: Chimecho|247/290|[from] item: Leftovers
+|-end|p2a: Chimecho|move: Taunt
+|upkeep
+|turn|30
+|
+|t:|1765760671
+|switch|p1a: Volcanion|Volcanion, L79|72/255 par
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|290/290
+|
+|upkeep
+|turn|31
+|
+|t:|1765760681
+|move|p2a: Chimecho|Stored Power|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1765760682
+|switch|p1a: Barraskewda|Barraskewda, L81, M|73/231
+|turn|32
+|
+|t:|1765760687
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|200/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|218/290|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1765760690
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|144/290
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|162/290|[from] item: Leftovers
+|-end|p2a: Chimecho|Throat Chop|[silent]
+|upkeep
+|turn|34
+|
+|t:|1765760703
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|102/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|247/290
+|
+|-heal|p2a: Chimecho|265/290|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1765760708
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|203/290
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|221/290|[from] item: Leftovers
+|-end|p2a: Chimecho|Throat Chop|[silent]
+|upkeep
+|turn|36
+|
+|t:|1765760712
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|167/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|1
+|-boost|p2a: Chimecho|spd|1
+|
+|-heal|p2a: Chimecho|185/290|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1765760722
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|141/290
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|286/290
+|
+|-heal|p2a: Chimecho|290/290|[from] item: Leftovers
+|-end|p2a: Chimecho|Throat Chop|[silent]
+|upkeep
+|turn|38
+|
+|t:|1765760729
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|242/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|0
+|-boost|p2a: Chimecho|spd|0
+|
+|-heal|p2a: Chimecho|260/290|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1765760733
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|212/290
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|290/290
+|
+|-end|p2a: Chimecho|Throat Chop|[silent]
+|upkeep
+|turn|40
+|
+|t:|1765760737
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|240/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|move|p2a: Chimecho|Cosmic Power|p2a: Chimecho
+|-boost|p2a: Chimecho|def|0
+|-boost|p2a: Chimecho|spd|0
+|
+|-heal|p2a: Chimecho|258/290|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1765760742
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|210/290
+|move|p2a: Chimecho|Recover|p2a: Chimecho
+|-heal|p2a: Chimecho|290/290
+|
+|-end|p2a: Chimecho|Throat Chop|[silent]
+|upkeep
+|turn|42
+|
+|t:|1765760748
+|switch|p2a: Duraludon|Duraludon, L82, F|39/249
+|move|p1a: Barraskewda|Throat Chop|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|t:|1765760749
+|switch|p2a: Chimecho|Chimecho, L93, F|290/290
+|turn|43
+|
+|t:|1765760752
+|switch|p2a: Zapdos|Zapdos, L78|55/268
+|move|p1a: Barraskewda|Throat Chop|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1765760754
+|switch|p2a: Chimecho|Chimecho, L93, F|290/290
+|turn|44
+|
+|t:|1765760757
+|switch|p2a: Ogerpon|Ogerpon, L80, F|259/259
+|move|p1a: Barraskewda|Throat Chop|p2a: Ogerpon
+|-damage|p2a: Ogerpon|159/259
+|-start|p2a: Ogerpon|Throat Chop|[silent]
+|
+|upkeep
+|turn|45
+|
+|t:|1765760762
+|switch|p2a: Chimecho|Chimecho, L93, F|290/290
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|108/290
+|-start|p2a: Chimecho|Throat Chop|[silent]
+|
+|-heal|p2a: Chimecho|126/290|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1765760767
+|move|p1a: Barraskewda|Throat Chop|p2a: Chimecho
+|-supereffective|p2a: Chimecho
+|-damage|p2a: Chimecho|0 fnt
+|faint|p2a: Chimecho
+|
+|upkeep
+|
+|t:|1765760768
+|switch|p2a: Ogerpon|Ogerpon, L80, F|159/259
+|turn|47
+|
+|t:|1765760791
+|move|p1a: Barraskewda|Throat Chop|p2a: Ogerpon
+|-damage|p2a: Ogerpon|58/259
+|-start|p2a: Ogerpon|Throat Chop|[silent]
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|48
+|
+|t:|1765760797
+|move|p1a: Barraskewda|Throat Chop|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|Gemini 2.5 Flash</script>
+<script>
+let daily = Math.floor(Date.now()/1000/60/60/24);document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version'+daily+'"></'+'script>');
+</script>
