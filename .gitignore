@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+*.js
+*.js.map
+
+# Battle replays
+*.html
+tournament-*/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

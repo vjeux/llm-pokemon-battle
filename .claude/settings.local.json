@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm start)",
+      "Bash(timeout 10 npm start:*)",
+      "Bash(timeout 5 npm start:*)",
+      "Bash(timeout 15 npm start:*)",
+      "Bash(timeout 20 npm start:*)",
+      "Bash(if [ -f .env ])",
+      "Bash(then echo \".env file exists\")",
+      "Bash(cat:*)",
+      "Bash(else echo \"No .env file found\")",
+      "Bash(fi)",
+      "Bash(timeout 30 npm start:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
