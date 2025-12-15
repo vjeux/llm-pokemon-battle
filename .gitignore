@@ -9,9 +9,8 @@ dist/
 *.js
 *.js.map
 
-# Battle replays
+# Battle replays (individual battles in root)
 *.html
-tournament-*/
 
 # IDE
 .vscode/
